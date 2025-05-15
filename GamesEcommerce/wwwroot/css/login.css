@@ -3,12 +3,18 @@
 }
 
 form {
-    background-color: #ffffff3a;
+    background: linear-gradient(to bottom left, #ffffff3a, #ffffff9b);
     padding: 10px;
     border: 2px solid #ffffff3a;
     border-radius: 10px;
     color: white;
     box-shadow: 0px 0px 6px 1px black;
+    margin-top: 180px;
+    transition: all 0.5s;
+}
+
+form:hover {
+    padding: 50px;
 }
 
 h1 {

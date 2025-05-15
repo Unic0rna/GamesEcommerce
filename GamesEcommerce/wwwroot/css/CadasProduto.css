@@ -1,20 +1,43 @@
-﻿form {
-    width: 100%;
-    margin: auto;
+﻿body {
+    background-color: #000d4e;
+    color: white;
+}
+
+form {
+    width: 200%;
+}
+
+label {
+    margin-top: 15px;
 }
 
 .btn {
     margin-top: 10px;
     display: inline-flex;
     gap: 20px;
+    padding: 0px;
+}
+
+.btn-primary, .btn-success {
+    padding: 10px;
+}
+
+.btn-primary {
+    transition: all 0.5s;
+}
+
+.btn-primary:hover {
+    letter-spacing: 3px;
 }
 
 .btn-success {
     background-color: #2735cb;
     border-color: #2735cb;
+    transition: all 0.5s;
 }
 
-    .btn-success:hover {
-        background-color: #101b93;
-        border-color: #101b93;
-    }
+.btn-success:hover {
+    background-color: #101b93;
+    border-color: #101b93;
+    letter-spacing: 3px;
+}
