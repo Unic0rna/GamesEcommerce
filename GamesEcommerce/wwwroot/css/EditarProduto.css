@@ -1,0 +1,16 @@
+﻿
+.btn {
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.btn-success {
+    background-color: #2735cb;
+    border-color: #2735cb;
+}
+
+    .btn-success:hover {
+        background-color: #101b93;
+        border-color: #101b93;
+    }

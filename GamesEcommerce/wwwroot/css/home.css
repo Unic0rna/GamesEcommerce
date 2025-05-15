@@ -10,3 +10,13 @@
 button {
     margin-top: 50px;
 }
+
+.btn-primary {
+    background-color: #4800ff;
+    border-color: #4800ff;
+}
+
+.btn-primary:hover {
+    background-color: #250085;
+    border-color: #250085;
+}
