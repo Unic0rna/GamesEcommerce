@@ -8,11 +8,11 @@ html {
 }
 
 .nav-link {
-    color: #243fe4;
+    color: #3955ff;
 }
 
 .nav-link:hover {
-    color: #4660ff;
+    color: #8999ff;
 }
 
 @media (min-width: 768px) {

@@ -17,18 +17,23 @@ h1 {
 
 label {
     margin-top: 20px;
+    font-size: 30PX;
 }
 
 button {
     margin-top: 30px;
+   
 }
 
 .btn-primary {
     background-color: #2f049b;
     border-color: #2f049b;
+    font-size: 25px;
+    transition: all 0.3s;
 }
 
 .btn-primary:hover {
     background-color: #250085;
     border-color: #250085;
+    letter-spacing: 4px;
 }
