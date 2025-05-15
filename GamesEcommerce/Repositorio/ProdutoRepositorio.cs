@@ -33,7 +33,7 @@ namespace GamesEcommerce.Repositorio
                 {
                     conexao.Open();
 
-                    MySqlCommand cmd = new MySqlCommand("Update Produto set Nome=@nome, Descricao=@descricao, Preco=@preco where Id=@codigo", conexao);
+                    MySqlCommand cmd = new MySqlCommand("Update Produto set Nome=@nome, Descricao=@descricao, Preco=@preco, Quantidade=@quantidade where Id=@codigo", conexao);
                     cmd.Parameters.Add("@codigo", MySqlDbType.Int32).Value = produto.Id;
                     cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = produto.Nome;
                     cmd.Parameters.Add("@descricao", MySqlDbType.VarChar).Value = produto.Descricao;
@@ -115,7 +115,7 @@ namespace GamesEcommerce.Repositorio
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("delete from cliente where Id = @codigo", conexao);
+                MySqlCommand cmd = new MySqlCommand("delete from Produto where Id = @codigo", conexao);
                 cmd.Parameters.AddWithValue("@codigo", Id);
                 int linhasAfetadas = cmd.ExecuteNonQuery();
 
